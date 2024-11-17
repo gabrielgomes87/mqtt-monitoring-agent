@@ -9,7 +9,6 @@ This MQTT agent collects CPU and RAM usage metrics from the host machine and sen
 
 - Monitors **CPU** and **RAM** usage using the `psutil` library.
 - Sends metrics to an **MQTT broker**.
-- Uses the host machine's name, not the container's name.
 - Configurable publish interval.
 
 ---
